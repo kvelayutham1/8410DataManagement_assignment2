@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="classified to" directorySegmentName="seg_0" id="70B43DE1-01B6-2954-19E2-F8071E79360A">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-13 20:01:28 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<sourcePk>3C19A2FD-9C49-4D77-5567-C8B0E8F92A20</sourcePk>
+<targetPk>EDFFB071-0C71-EA34-CF35-7C0E1A2522E2</targetPk>
+<identifying>false</identifying>
+<nameOnSource>classified to</nameOnSource>
+<nameOnTarget>associated to</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7DFB2257-AC30-364E-CDAD-FCC1A0210670</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BA192562-F73A-9C49-AB0F-96C56BB5DC67</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

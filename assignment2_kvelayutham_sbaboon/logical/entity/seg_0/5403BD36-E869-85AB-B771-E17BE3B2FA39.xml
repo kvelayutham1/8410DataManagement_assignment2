@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5403BD36-E869-85AB-B771-E17BE3B2FA39" name="Legislator Voting">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-13 05:38:35 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vote_event" id="15E34D32-B3C0-E7AF-225D-A5B92F859932">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-13 05:39:19 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Legislator" id="5880BB13-A741-E000-217C-C1BCA23320C8">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-13 05:39:33 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vote" id="D7CB5360-AC36-38E8-5F33-8ED97F831225">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-13 05:42:01 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

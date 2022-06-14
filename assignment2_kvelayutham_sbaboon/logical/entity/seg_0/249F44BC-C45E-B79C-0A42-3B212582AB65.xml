@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="249F44BC-C45E-B79C-0A42-3B212582AB65" name="Legislator">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:04:35 UTC</createdTime>
+<comment><![CDATA[Legislator is an elected member of the chambor]]></comment>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="AEE061F1-B987-0635-12EB-3BAED05A123E">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:04:57 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email ID" id="41BB4A30-3E93-693F-CB7F-D2FFC2AC9C53">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:05:33 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telephone Number" id="4E39E5C8-43BF-DBDC-6D25-8C3BA9081926">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:17:59 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FAX Number" id="6E54A8DF-BDEE-55EF-D1BB-0BB47604EDAF">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:22:40 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="5464CD4D-3731-C8B2-800C-B30542ABEB91">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:23:10 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Chamber" id="8516A0A9-9D2F-E028-54C5-9FB4256C3824">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:23:43 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="District" id="9F5643E8-553F-26D7-A550-D69625C2E3AC">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:37:06 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="A4467E9B-96A6-F397-2129-28CD1939D784">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:24:09 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Party affiliation" id="1D1F4E06-1273-24C6-3360-266C803F4D7C">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:24:27 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Elected Date" id="2E0D1D5A-EC45-871C-CD6F-A3DA8BFB9DA5">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:25:13 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9741CAD4-AAAD-C6DB-DE5B-9E1BE06F3DAD" name="Legislator PK">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:23:36 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41BB4A30-3E93-693F-CB7F-D2FFC2AC9C53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

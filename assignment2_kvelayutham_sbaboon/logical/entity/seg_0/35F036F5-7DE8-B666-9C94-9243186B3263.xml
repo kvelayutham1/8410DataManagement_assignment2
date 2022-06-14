@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35F036F5-7DE8-B666-9C94-9243186B3263" name="Contribution">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:26:03 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Recepient" id="CDAFDEF7-AFBF-C49C-D9C8-6BA226CCE146">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:26:14 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contributer" id="0BF4B6A3-9E84-2664-641A-A48E2CA61A27">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:26:41 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date of contribution" id="009491B6-5A16-DFE4-629D-5349CEB0BCB7">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:27:17 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Amount" id="B8CB25C4-4F24-8C03-D828-4C9E305F5DFE">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:33:35 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Occupation" id="194A2613-E79B-7B77-7A0C-900D0613ACF1">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:39:07 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="City" id="256AF3A2-1846-F32E-DD9A-A8D99B8808E3">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:39:46 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="State" id="489DBF10-27CE-77CF-B981-3A65CBBBE5C2">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:33:06 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zip code" id="544E15A5-7B13-6157-ECBA-CC87E7D6CE16">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:40:13 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contributor Name" id="59181949-C70A-1B09-433A-4070CFD0D689">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-13 20:14:01 UTC</createdTime>
+<generatorID>EFE087A6-C36A-24AF-640A-0285727AA351</generatorID>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<referedAttribute>2AAB5879-D60E-3189-DE67-6C1751BC45AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A8F3FAF-A5F5-D9B1-B3C1-543DFA748F0F" name="Contribution PK">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 14:30:19 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>009491B6-5A16-DFE4-629D-5349CEB0BCB7</attributeRef>
+<attributeRef>0BF4B6A3-9E84-2664-641A-A48E2CA61A27</attributeRef>
+<attributeRef>CDAFDEF7-AFBF-C49C-D9C8-6BA226CCE146</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

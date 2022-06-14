@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78D0DB3D-F135-AFF3-2CD4-54FEE4156F12" name="Voting event">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:31:03 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vote_event" id="ED4A9215-EA9D-09D1-9899-B7CAB843F241">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:31:13 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bill No" id="9D2193D2-1639-505C-D41A-1E717AB88C59">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:31:32 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="55FEF0D5-E44C-0453-E2D3-1D7141525BF3">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:32:09 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Chamber" id="F2154232-43A4-7406-771A-1BAA71BE8D12">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:32:25 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motion" id="AFA3FDBA-B961-7184-BED0-F827DDC7243D">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:33:37 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Result" id="7D3973B0-C331-7409-E8B3-143CF40BED3C">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:37:04 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Votes as YES" id="C75A714F-816A-2163-DC1D-D5379A374EAE">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:37:57 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Votes as NO" id="46267AED-0E80-CCA8-6D01-6E94087EFD18">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:38:54 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Votes as PRESENT" id="A4F1DE03-1ED6-DC10-0125-78584638747B">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:39:26 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Votes as NOT VOTING" id="C9458815-A58C-E6D9-8BAF-19131A00C70A">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:40:11 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total number of Votes" id="145BB838-EA54-5FCF-6FD6-DE3040D09B83">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:41:15 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5798B197-0B3B-E4F2-B42A-9A311AFC8C9A" name="Voting event PK">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 15:31:30 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED4A9215-EA9D-09D1-9899-B7CAB843F241</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

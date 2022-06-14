@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="supports or opposes" directorySegmentName="seg_0" id="7197E231-AAFA-43D4-60A0-28A39DFF31A9">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-13 19:30:15 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<engineerTo>
+<item key="C1B5DF28-7308-5726-7290-1B5731A06926" value="true"/>
+</engineerTo>
+<sourcePk>EDFFB071-0C71-EA34-CF35-7C0E1A2522E2</sourcePk>
+<targetPk>42A05E9F-7978-55FB-29D4-DCDDECE7701C</targetPk>
+<identifying>false</identifying>
+<nameOnSource>supports or opposes</nameOnSource>
+<nameOnTarget>supported or opposed by</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BA192562-F73A-9C49-AB0F-96C56BB5DC67</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B3BEDF2-804A-B0EB-1ADB-2D95914DE024</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

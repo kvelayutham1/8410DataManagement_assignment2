@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="assignment2_kvelayutham_sbaboon" id="DBEA24C5-C3F9-9F85-0B19-A086358A1AAA" version="3.5">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 13:04:34 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DBEA24C5-C3F9-9F85-0B19-A086358A1AAA</designId>
+</OSDM_Design>

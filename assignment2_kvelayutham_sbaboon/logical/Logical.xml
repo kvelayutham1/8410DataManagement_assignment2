@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FA23094D-517F-31D6-4EE0-5B59329B81B4" mainViewID="31D5EAEB-A624-9C9E-4A7F-4DAB2C2D100A">
+<createdBy>mibar</createdBy>
+<createdTime>2022-06-12 13:04:34 UTC</createdTime>
+<ownerDesignName>assignment2_kvelayutham_sbaboon</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
